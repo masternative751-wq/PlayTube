@@ -1,0 +1,13 @@
+PLAYTUBE QUICK START
+1. Open this folder in VS Code.
+2. Backend terminal:
+   py -m venv .venv
+   .\\.venv\\Scripts\\Activate.ps1
+   py -m pip install -r requirements.txt
+   py -m uvicorn server.main:app --reload --port 8000
+3. Second terminal:
+   cd frontend
+   npm install
+   npm run dev
+4. Visit http://localhost:5173
+If npm.ps1 is blocked, use npm.cmd.
