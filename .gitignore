@@ -43,3 +43,19 @@ ffmpeg-9.0.2-essentials_build/
 .vscode/
 .idea/
 .DS_Store
+
+# Local tools and generated files
+ngrok.exe
+ffmpeg-9.0.2-essentials_build/
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!*.env.example
+server/playtube.db
